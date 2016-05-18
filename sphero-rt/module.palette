@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bajaObjectGraph version="1.0">
+<p m="b=baja" t="b:UnrestrictedFolder">
+
+ <p n="SpheroNetwork" m="x=sphero" t="x:SpheroNetwork"/>
+ <p n="SpheroDevice" t="x:SpheroDevice"/>
+ <p n="SpheroControl" t="x:SpheroControl"/>
+
+
+</p>
+</bajaObjectGraph>

@@ -1,0 +1,19 @@
+<!-- Types -->
+<types>
+  <!-- com.tridium.sphero -->
+  <!--com.tridium.sphero-->
+  <type class="com.tridium.sphero.BSpheroNetwork" name="SpheroNetwork"/>
+  <type class="com.tridium.sphero.BSpheroDevice" name="SpheroDevice"/>
+  <type class="com.tridium.sphero.BSpheroDeviceFolder" name="SpheroDeviceFolder"/>
+  <type class="com.tridium.sphero.BSpheroControl" name="SpheroControl"/>
+  <!-- com.tridium.sphero.comm -->
+  <!--com.tridium.sphero.comm-->
+  <type class="com.tridium.sphero.comm.BSpheroSerialCommConfig" name="SpheroSerialCommConfig"/>
+  <!-- com.tridium.sphero.point -->
+  <!--com.tridium.sphero.point-->
+  <type class="com.tridium.sphero.point.BSpheroPointDeviceExt" name="SpheroPointDeviceExt"/>
+  <type class="com.tridium.sphero.point.BSpheroPointFolder" name="SpheroPointFolder"/>
+  <type class="com.tridium.sphero.point.BSpheroProxyExt" name="SpheroProxyExt"/>
+  <!--com.tridium.sphero.datatypes-->
+  <type class="com.tridium.sphero.datatypes.BRollParameters" name="RollParameters"/>
+</types>

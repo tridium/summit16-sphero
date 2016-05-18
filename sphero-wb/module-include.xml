@@ -1,0 +1,10 @@
+<!-- Types -->
+<types>
+  <!-- com.tridium.sphero.ui -->
+  <!--com.tridium.sphero.ui-->
+  <type class="com.tridium.sphero.ui.BSpheroDialog" name="SpheroDialog">
+    <agent>
+      <on type="sphero:SpheroControl"/>
+    </agent>
+  </type>
+</types>

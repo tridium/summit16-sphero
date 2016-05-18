@@ -1,0 +1,26 @@
+apply from: "${System.getenv("niagara_home")}/etc/gradle/niagara.gradle"
+
+ext {
+  name = "sphero"
+  project.version = "1.0"
+  project.group = "niagara"
+  description = ""
+}
+
+niagaraModule {
+  preferredSymbol = "sphero"
+  moduleName = "sphero"
+  runtimeProfile = "wb"
+}
+
+dependencies {
+  compile 'Tridium:baja:4.0'
+  compile 'Tridium:bajaui-wb:4.0'
+  compile 'Tridium:driver-rt:4.0'
+  compile 'Tridium:gx-rt:4.0'
+  compile 'Tridium:ndriver-rt:4.0'
+  compile 'niagara:sphero-rt:4.0'
+  compile 'Tridium:nre:4.0'
+  compile 'Tridium:workbench-wb:4.0'
+}
+
